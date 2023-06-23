@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 #include <iostream>
 #include "Point3D.h"
@@ -6,24 +6,24 @@
 
 namespace crv
 {
-	// Базовый класс для трехмерной кривой
+	// Р‘Р°Р·РѕРІС‹Р№ РєР»Р°СЃСЃ РґР»СЏ С‚СЂРµС…РјРµСЂРЅРѕР№ РєСЂРёРІРѕР№
 	template <typename myType>
 	class Curve3D
 	{
 	protected:
 		static const myType PI;
 	public:
-		// Возвращает точку на кривой по углу t в радианах
+		// Р’РѕР·РІСЂР°С‰Р°РµС‚ С‚РѕС‡РєСѓ РЅР° РєСЂРёРІРѕР№ РїРѕ СѓРіР»Сѓ t РІ СЂР°РґРёР°РЅР°С…
 		inline virtual Point3D<myType> GetPoint(myType t) const = 0;
 
-		// Возвращает производную кривой по углу t в радианах
+		// Р’РѕР·РІСЂР°С‰Р°РµС‚ РїСЂРѕРёР·РІРѕРґРЅСѓСЋ РєСЂРёРІРѕР№ РїРѕ СѓРіР»Сѓ t РІ СЂР°РґРёР°РЅР°С…
 		inline virtual Point3D<myType> GetDerivative(myType t) const = 0;
 	};
 
 	template <typename myType>
 	const myType Curve3D<myType>::PI = myType(3.14159265358979323846);
 
-	// Класс окружности
+	// РљР»Р°СЃСЃ РѕРєСЂСѓР¶РЅРѕСЃС‚Рё
 	template <typename myType>
 	class Circle : public Curve3D<myType> {
 	private:
@@ -38,7 +38,7 @@ namespace crv
 	};
 
 
-	// Класс эллипса
+	// РљР»Р°СЃСЃ СЌР»Р»РёРїСЃР°
 	template <typename myType>
 	class Ellipse : public Curve3D<myType> {
 	private:
@@ -54,7 +54,7 @@ namespace crv
 		Point3D<myType> GetDerivative(myType t) const override;
 	};
 
-	// Класс спирали
+	// РљР»Р°СЃСЃ СЃРїРёСЂР°Р»Рё
 	template <typename myType>
 	class Helix : public Curve3D<myType> {
 	private:

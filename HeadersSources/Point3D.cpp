@@ -1,4 +1,4 @@
-#include "Point3D.h"
+﻿#include "Point3D.h"
 
 template <typename myType>
 Point3D<myType>::Point3D(myType myX, myType myY, myType myZ) {

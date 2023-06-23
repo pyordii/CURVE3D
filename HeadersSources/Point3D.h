@@ -1,12 +1,12 @@
-#pragma once
-// Класс трехмерной точки
+п»ї#pragma once
+// РљР»Р°СЃСЃ С‚СЂРµС…РјРµСЂРЅРѕР№ С‚РѕС‡РєРё
 #include <iostream>
 #include <type_traits>
 
 template <typename myType>
 class  Point3D
 {
-	// Проверка, что шаблонный параметр является типом float или double
+	// РџСЂРѕРІРµСЂРєР°, С‡С‚Рѕ С€Р°Р±Р»РѕРЅРЅС‹Р№ РїР°СЂР°РјРµС‚СЂ СЏРІР»СЏРµС‚СЃСЏ С‚РёРїРѕРј float РёР»Рё double
 	static_assert(std::is_same<myType, float>::value || std::is_same<myType, double>::value, "Template parameter must be float or double.");
 
 public:

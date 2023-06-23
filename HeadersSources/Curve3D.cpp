@@ -1,8 +1,8 @@
-#include "Curve3D.h"
+п»ї#include "Curve3D.h"
 
 namespace crv {
 
-    //*************************Окружность*********************
+    //*************************РћРєСЂСѓР¶РЅРѕСЃС‚СЊ*********************
     template <typename myType>
     Circle<myType>::Circle(myType myRadius) {
         if (myRadius < 0) {
@@ -35,7 +35,7 @@ namespace crv {
     template class Circle<float>;
     template class Circle<double>;
 
-    //*************************Эллипс*********************
+    //*************************Р­Р»Р»РёРїСЃ*********************
 
     template <typename myType>
     Ellipse<myType>::Ellipse(myType myRadiusX, myType myRadiusY) {
@@ -78,7 +78,7 @@ namespace crv {
     template class Ellipse<float>;
     template class Ellipse<double>;
 
-    //*************************Спираль*********************
+    //*************************РЎРїРёСЂР°Р»СЊ*********************
 
     template <typename myType>
     Helix<myType>::Helix(myType myRadius, myType myStep) {

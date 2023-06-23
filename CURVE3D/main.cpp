@@ -9,7 +9,6 @@
 
 // Только double или float
 using myType = double;
-
 const myType PI = myType(3.14159265358979323846);
 
 // Функтор для выполнения операции суммирования

@@ -21,11 +21,10 @@ public:
 	// TODO: добавьте сюда свои методы.
 };
 
-extern CURVE3DLIB_API int nCurve3DLi;
+extern CURVE3DLIB_API int nCurve3DLib;
 
 CURVE3DLIB_API int fnCurve3DLib(void);
 */
-
 
 template <typename myType>
 class CURVE3DLIB_API Point3D

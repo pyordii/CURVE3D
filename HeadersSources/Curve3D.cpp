@@ -1,7 +1,6 @@
 #include "Curve3D.h"
 
 namespace crv {
-
     //*************************Окружность*********************
 
     template <typename myType>

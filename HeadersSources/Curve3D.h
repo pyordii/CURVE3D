@@ -38,6 +38,7 @@ namespace crv
 	};
 
 
+
 	// Класс эллипса
 	template <typename myType>
 	class Ellipse : public Curve3D<myType> {

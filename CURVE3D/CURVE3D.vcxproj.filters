@@ -18,10 +18,22 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="..\HeadersSources\Curve3D.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HeadersSources\Point3D.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Curve3DLib.h">
       <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HeadersSources\Curve3D.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HeadersSources\Point3D.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

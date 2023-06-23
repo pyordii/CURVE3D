@@ -21,5 +21,6 @@ public:
 		os << "(" << point.x << ", " << point.y << ", " << point.z << ")";
 		return os;
 	}
+
 };
 

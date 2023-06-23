@@ -139,9 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\HeadersSources\Curve3D.cpp" />
+    <ClCompile Include="..\HeadersSources\Point3D.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\HeadersSources\Curve3D.h" />
+    <ClInclude Include="..\HeadersSources\Point3D.h" />
     <ClInclude Include="Curve3DLib.h" />
   </ItemGroup>
   <ItemGroup>

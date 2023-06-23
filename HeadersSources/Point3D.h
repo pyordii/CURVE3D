@@ -13,7 +13,8 @@ public:
 	myType x;
 	myType y;
 	myType z;
-	
+
+
 	Point3D(myType myX, myType myY, myType myZ);
 
 	

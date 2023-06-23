@@ -3,7 +3,6 @@
 namespace crv {
 
     //*************************Окружность*********************
-
     template <typename myType>
     Circle<myType>::Circle(myType myRadius) {
         if (myRadius < 0) {

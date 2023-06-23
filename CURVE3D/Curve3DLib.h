@@ -21,7 +21,7 @@ public:
 	// TODO: добавьте сюда свои методы.
 };
 
-extern CURVE3DLIB_API int nCurve3DLib;
+extern CURVE3DLIB_API int nCurve3DLi;
 
 CURVE3DLIB_API int fnCurve3DLib(void);
 */

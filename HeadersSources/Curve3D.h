@@ -13,6 +13,8 @@ namespace crv
 	protected:
 		static const myType PI;
 	public:
+
+		inline virtual ~Curve3D() {};
 		// Возвращает точку на кривой по углу t в радианах
 		inline virtual Point3D<myType> GetPoint(myType t) const = 0;
 
